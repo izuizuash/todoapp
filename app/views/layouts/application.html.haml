@@ -15,5 +15,10 @@
     %body
     %header.header
       %p.header_pageTitle Boards
-
+      .dropdown
+        = image_tag 'Oval.png', class: 'header_avatar dropbtn'
+    - if flash.present?
+      .flash
+        - flash.each do |key, value|
+          %div{:class => key}= value 
     = yield
