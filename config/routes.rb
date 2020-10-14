@@ -6,5 +6,5 @@ Rails.application.routes.draw do
   # get '/' => 'boards#index'
   get '/new' => 'boards#new'
 
-  resources :boards, only: [:show, :new]
+  resources :boards, only: [:show, :new, :create]
 end
