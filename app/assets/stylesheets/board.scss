@@ -12,6 +12,56 @@
   border-radius: 10px;
   margin: 50px 20px 0;
 }
+.board {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+  padding: 30px;
+  margin: 50px 20px 0;
+  background: #F4F4F4;
+  border-radius: 10px;
+
+  &_heart {
+    position: flex;
+    right: 16px;
+    bottom: 16px;
+    text-align: right;
+    
+    img {
+      width: 40px;
+      height: 16px;
+    }
+  }
+}
+.board_detail {
+    padding-top: 10px;
+    display: flex;
+    font-size: 12px;
+    position: relative;
+    height: 20px;
+    
+
+    img {
+      cursor: pointer;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    margin-right: 16px;
+    }
+}
+
+.board_title {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 36px;
+  color: #000000;
+}
+
 
 h1 {
   font-family: Avenir;
